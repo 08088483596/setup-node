@@ -1,4 +1,4 @@
-name: Basic validation
+name:Aide osezuwa :
 
 on:
   pull_request:
@@ -6,12 +6,12 @@ on:
       - '**.md'
   push:
     branches:
-      - main
-      - releases/*
+      - flutterwave-node-v3 :
+      - nodejs :
     paths-ignore:
-      - '**.md'
+      -yml:
 
 jobs:
   call-basic-validation:
-    name: Basic validation
+    name:aide osezuwa:
     uses: actions/reusable-workflows/.github/workflows/basic-validation.yml@main
